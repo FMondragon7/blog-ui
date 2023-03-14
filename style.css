@@ -1,0 +1,64 @@
+@import url(reset.css);
+
+:root {
+  font-family: 'open sans';
+}
+
+html, body {
+  height: 100%;
+  margin: 20px 16px;
+}
+
+h1, h2, h3, p {
+  background: rgba(254, 226, 226, 0.5);
+}
+
+h1 {
+  margin-bottom: 64px;
+
+}
+
+h2 {
+  margin: 88px 0 56px 0;
+}
+
+h3 {
+  margin: 64px 0 44px 0;
+}
+
+p {
+  margin: 56px 0;
+}
+
+div {
+  margin: 32px 0;
+}
+
+blockquote {
+  margin: 72px 0;
+  background: #D6D3D1;
+  border-radius: 8px;
+  padding: 16px 18px;
+  align-items: center;
+  font-style: italic;
+}
+
+figure {
+  margin: 64px 0;
+}
+
+img {
+  border-radius: 16px;
+  width: 100%;
+  height: auto;
+}
+
+a, strong {
+  margin: 32px 0;
+  display: block;
+}
+
+em {
+  margin-top: 32px;
+  display: block;
+}
