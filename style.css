@@ -1,64 +1,44 @@
 @import url(reset.css);
 
-:root {
-  font-family: 'open sans';
+/* Layouts */
+/* Containers */
+.container-sm {
+  max-width: 640px;
+  padding: 0 16px;
+  margin: auto;
 }
 
-html, body {
-  height: 100%;
-  margin: 20px 16px;
+.container, .container-md {
+  max-width: 768px;
+  padding: 0 16px;
+  margin: auto;
 }
 
-h1, h2, h3, p {
-  background: rgba(254, 226, 226, 0.5);
+.container-lg {
+  max-width: 1024px;
+  padding: 0 16px;
+  margin: auto;
 }
 
-h1 {
-  margin-bottom: 64px;
-
+.container-xl {
+  max-width: 1280px;
+  padding: 0 16px;
+  margin: auto;
 }
 
-h2 {
-  margin: 88px 0 56px 0;
+/* Sections */
+.section-sm {
+margin: 32px 0;
 }
 
-h3 {
-  margin: 64px 0 44px 0;
+.section, .section-md {
+  margin: 48px 0;
 }
 
-p {
-  margin: 56px 0;
+.section-lg {
+  margin: 96px 0;
 }
 
-div {
-  margin: 32px 0;
-}
-
-blockquote {
-  margin: 72px 0;
-  background: #D6D3D1;
-  border-radius: 8px;
-  padding: 16px 18px;
-  align-items: center;
-  font-style: italic;
-}
-
-figure {
-  margin: 64px 0;
-}
-
-img {
-  border-radius: 16px;
-  width: 100%;
-  height: auto;
-}
-
-a, strong {
-  margin: 32px 0;
-  display: block;
-}
-
-em {
-  margin-top: 32px;
-  display: block;
+.section-xl {
+  margin: 144px 0;
 }
