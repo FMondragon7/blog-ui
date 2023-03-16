@@ -6,6 +6,76 @@ body {
   font-family: 'Open Sans', 'Segoe UI', Tahoma, sans-serif;
 }
 
+/* article */
+
+.article {
+  font-size: 18px;
+  color: #111827;
+}
+
+.article h1 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 32px;
+}
+
+.article h2 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  margin: 56px 0 24px 0;
+}
+
+.article p {
+  font-weight: 300;
+  line-height: 32px;
+  margin: 24px 0;
+}
+
+.article strong {
+  font-weight: 600;
+}
+
+.article a {
+  color: #BE185D;
+  font-weight: 400;
+}
+
+.article li {
+  margin: 18px 0;
+  line-height: 32px;
+  font-weight: 300;
+
+}
+
+.article blockquote {
+  margin: 24px 0;
+  padding: 16px 18px;
+  border-radius: 8px;
+  line-height: 32px;
+  font-weight: 300;
+  font-style: italic;
+  border-left: 4px solid #D6D3D1;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.article figure {
+  margin: 32px 0;
+}
+
+.article img {
+  border-radius: 8px;
+}
+
+.article figcaption {
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
 /* Layouts */
 /* Containers */
 .container-sm {
