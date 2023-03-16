@@ -1,11 +1,3 @@
-@import url(reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
-/* Typography */
-body {
-  font-family: 'Open Sans', 'Segoe UI', Tahoma, sans-serif;
-}
-
 /* article */
 
 .article {
@@ -74,47 +66,4 @@ body {
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
-}
-
-/* Layouts */
-/* Containers */
-.container-sm {
-  max-width: 640px;
-  padding: 0 16px;
-  margin: auto;
-}
-
-.container, .container-md {
-  max-width: 768px;
-  padding: 0 16px;
-  margin: auto;
-}
-
-.container-lg {
-  max-width: 1024px;
-  padding: 0 16px;
-  margin: auto;
-}
-
-.container-xl {
-  max-width: 1280px;
-  padding: 0 16px;
-  margin: auto;
-}
-
-/* Sections */
-.section-sm {
-margin: 32px 0;
-}
-
-.section, .section-md {
-  margin: 48px 0;
-}
-
-.section-lg {
-  margin: 96px 0;
-}
-
-.section-xl {
-  margin: 144px 0;
 }
