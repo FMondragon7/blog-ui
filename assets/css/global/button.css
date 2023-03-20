@@ -1,3 +1,5 @@
+/* button */
+
 .button {
   border: none;
   border-radius: 0.5em;
@@ -9,8 +11,19 @@
   cursor: pointer;
 
   display: flex;
+  gap: 0.35em;
   justify-content: center;
   align-items: center;
+}
+
+.button--sm{
+  font-size: 0.8em;
+  padding: 0.5em 0.75em;
+}
+
+.button--lg{
+  font-size: 1.2em;
+  padding: 0.875em 1.5em;
 }
 
 /* button default */
