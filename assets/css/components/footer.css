@@ -1,0 +1,11 @@
+.footer {
+  background-color: var(--secondary-light);
+  padding: 3em 0;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+}
