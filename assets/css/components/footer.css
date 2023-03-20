@@ -9,3 +9,8 @@
   align-items: center;
   gap: 3em;
 }
+
+.footer__content__title {
+  text-align: center;
+  line-height: 1em;
+}
