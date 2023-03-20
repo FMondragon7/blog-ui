@@ -22,3 +22,15 @@
 .mono {
   font-family: 'Source Code Pro', monospace
 }
+
+.list-style-none {
+  list-style: none;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}

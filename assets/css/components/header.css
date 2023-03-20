@@ -2,7 +2,38 @@
   background-color: var(--white);
 }
 
-.header .container-md {
+.navbar {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: .3em 0;
+}
+
+.navbar__logo {
+  color: var(--gray-900);
+}
+
+.navbar__links {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 1em;
+  align-items: center;
+}
+
+.navbar__links .link {
+  text-decoration: none;
+  color: var(--primary);
+  padding: 0.25em .5em;
+  border-radius: .5em;
+}
+
+.navbar__links .link:hover {
+  color: var(--primary-dark);
+}
+
+.navbar__links .link:focus {
+  outline: 0.125em solid var(--primary);
+  outline-offset: 0.0625em;
 }
