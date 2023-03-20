@@ -1,0 +1,8 @@
+.header {
+  background-color: var(--white);
+}
+
+.header .container-md {
+  display: flex;
+  justify-content: space-around;
+}
