@@ -39,3 +39,19 @@ margin: 32px 0;
 .section-xl {
   margin: 144px 0;
 }
+
+.section-padding-sm {
+  padding: 32px 0;
+  }
+  
+  .section-padding, .section-padding-md {
+    padding: 48px 0;
+  }
+  
+  .section-padding-lg {
+    padding: 96px 0;
+  }
+  
+  .section-padding-xl {
+    padding: 144px 0;
+  }
