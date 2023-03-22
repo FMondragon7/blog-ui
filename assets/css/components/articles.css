@@ -1,8 +1,10 @@
-.article-summary {
+.article-summary,
+.skills-summary {
   text-align: center;
 }
 
-.article-summary__content {
+.article-summary__content,
+.skills-summary__content {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 2rem;
@@ -10,7 +12,8 @@
   margin: 1rem 0;
 }
 
-.article-summary__card {
+.article-summary__card,
+.skills-summary__card {
   display: flex;
   flex-direction: column;
   gap: 0.625em;
