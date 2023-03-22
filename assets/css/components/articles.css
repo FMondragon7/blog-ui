@@ -1,4 +1,20 @@
-/* article */
+.article-summary {
+  text-align: center;
+}
+
+.article-summary__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  text-align: left;
+  margin: 1rem 0;
+}
+
+.article-summary__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625em;
+}
 
 .article {
   font-size: 18px;

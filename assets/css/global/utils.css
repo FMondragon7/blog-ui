@@ -39,6 +39,10 @@
   color: var(--primary);
 }
 
+.color-primary-dark {
+  color: var(--primary-dark);
+}
+
 .bg-color-secondary-light {
   background-color: var(--secondary-light);
 }
