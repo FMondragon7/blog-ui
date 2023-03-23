@@ -86,6 +86,7 @@
   --error: var(--red-400);
   --warning: var(--yellow-300);
   --success: var(--green-400);
+  --success-dark: var(--green-500);
   --info: var(--blue-400);
   --text: var(--gray-900);
 
