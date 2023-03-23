@@ -25,10 +25,24 @@
 
 .about-hobbies {
   background-color: var(--background-dark);
+  margin: 0;
 }
 
 .about-hobbies__content {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
+  padding: 0 1rem;
+}
+
+.about-hobbies__image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: .5rem;
+}
+
+.about-hobbies__paragraph {
+  text-align: center;
+  padding: .5rem .5rem;
 }

@@ -19,6 +19,15 @@
   text-transform: uppercase;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
+.py-12 {
+  padding-top: 3rem; /* 48px */
+  padding-bottom: 3rem; /* 48px */
+}
+
 .mono {
   font-family: 'Source Code Pro', monospace
 }
