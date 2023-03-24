@@ -1,5 +1,5 @@
 .input {
-  color: var(--gray-700);
+  color: var(--gray-900);
   width: 100%;
   font-size: 1rem;
   border: 1px solid var(--gray-700);
@@ -7,4 +7,62 @@
   line-height: 1.75rem;
   padding: .5rem .75rem;
   background-color: var(--white);
+}
+
+.input::placeholder {
+  color: var(--gray-500);
+  font-weight: 300;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid var(--info);
+  box-shadow: 0 0 8px var(--blue-600);
+}
+
+.input:invalid {
+  border: 1px solid var(--error);
+  box-shadow: 0 0 8px var(--red-600);
+}
+
+.input--with-icon {
+  width: 100%;
+  position: relative;
+}
+
+.input__icon {
+  position: absolute;
+  z-index: 1;
+  top: .5rem;
+  /* top: 50%;
+  transform: translate(0, -45%); */
+  left: .75rem;
+  color: var(--gray-500);
+  pointer-events: none;
+}
+
+.input__content {
+  position: relative;
+  padding-left: 2rem;
+  padding-right: .75rem;
+}
+
+.input--error {
+  border: 1px solid var(--error);
+}
+
+.input__message {
+  display: block;
+  margin: .25rem 0;
+  font-size: .875rem;
+  line-height: 1.3125rem;
+  font-weight: 400;
+}
+
+.input__message--help {
+  color: var(--gray-500);
+}
+
+.input__message--error {
+  color: var(--error);
 }
