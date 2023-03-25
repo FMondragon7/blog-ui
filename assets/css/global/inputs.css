@@ -14,7 +14,8 @@
   font-weight: 300;
 }
 
-.input:focus {
+.input:focus,
+.select:focus {
   outline: none;
   border: 1px solid var(--info);
   box-shadow: 0 0 8px var(--blue-600);
@@ -51,18 +52,42 @@
   border: 1px solid var(--error);
 }
 
-.input__message {
+.input__message,
+.select__message {
   display: block;
   margin: .25rem 0;
   font-size: .875rem;
   line-height: 1.3125rem;
   font-weight: 400;
+  text-transform: capitalize;
 }
 
-.input__message--help {
+.input__message--help,
+.select__message--help {
   color: var(--gray-500);
 }
 
-.input__message--error {
+.input__message--error,
+.select__message--error {
   color: var(--error);
+}
+
+.select {
+  width: 100%;
+  padding: 0.5rem 2.5rem 0.5rem 0.75rem;
+  border: 1px solid var(--gray-700);
+  color: var(--gray-900);
+  background-color: var(--white);
+  border-radius: 6px;
+
+  cursor: pointer;
+  
+  appearance: none;
+  background-image: url(/assets/images/icons/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 12px) center;
+}
+
+.select--error {
+  border: 1px solid var(--error);
 }
