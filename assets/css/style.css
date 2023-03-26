@@ -1,6 +1,7 @@
 @import url("global.css");
 
 @import url("components/header.css");
-@import url("components/articles.css");
 @import url("components/footer.css");
+@import url("components/articles.css");
 @import url("components/about.css");
+@import url("components/portfolio.css");
