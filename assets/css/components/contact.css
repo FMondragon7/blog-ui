@@ -1,3 +1,7 @@
+* {
+  border: 1px solid red;
+}
+
 body {
   background-color: var(--white);
 }
@@ -27,6 +31,8 @@ body {
 .about__form {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  width: 40rem;
   align-items: center;
   padding: 0 1rem;
   gap: 2rem;
@@ -36,7 +42,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  width: 640px;
+  width: 100%;
 }
 
 .about__form_checkbox {
