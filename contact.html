@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-lg">
+        <nav class="navbar">
+          <input type="checkbox" id="menu-mobile" />
+
+          <a
+            href="/index.html"
+            class="navbar__logo heading-md semibold text-decoration-none"
+          >
+            <span>Fernando Mondragon</span>
+            <!-- *option 1 -->
+            <label for="menu-mobile" id="toggle-close">
+              <i class="ri-close-fill ri-sm"></i>
+            </label>
+            <!-- *option 2 -->
+            <label for="menu-mobile" id="toggle-open">
+              <i class="ri-menu-line ri-sm"></i>
+            </label>
+          </a>
+
+          <ul class="expandable navbar__links list-style-none">
+            <li>
+              <a href="article.html" class="link text-md semibold">Articles</a>
+            </li>
+            <li>
+              <a href="#" class="link text-md semibold">Portfolio</a>
+            </li>
+            <li>
+              <a href="about.html" class="link text-md semibold">About</a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="button button--primary button--sm text-decoration-none ml-4"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="container-lg contact">
+      <div class="contact__header">
+        <h1 class="heading-lg semibold">Contact Me</h1>
+        <p class="text-lg light">
+          Looking to expand your team? Or do you need a web developer for a
+          specific project? If I can help you in any way don't hesitate to fill
+          this form.
+        </p>
+      </div>
+      <div class="about__form">
+        <div class="about__form_section">
+          <label class="overline text-xs light input-group">
+            first name
+            <input
+              class="input"
+              type="text"
+              name="first-name"
+              placeholder="John"
+            />
+          </label>
+          <label class="overline text-xs light input-group">
+            last name
+            <input
+              class="input"
+              type="text"
+              name="last-name"
+              placeholder="Doe"
+            />
+          </label>
+        </div>
+        <div class="about__form_section">
+          <label class="overline text-xs light input-group">
+            email
+            <input
+              class="input"
+              type="email"
+              name="email"
+              placeholder="john@mail.com"
+            />
+          </label>
+          <label class="overline text-xs light input-group">
+            company
+            <input class="input" type="text" name="company" placeholder="Doe" />
+          </label>
+        </div>
+        <div class="about__form_section">
+          <label class="overline text-xs light input-group">
+            phone
+            <input
+              class="input"
+              type="tel"
+              name="phone"
+              placeholder="987654321"
+            />
+          </label>
+          <label class="overline text-xs light input-group">
+            country
+            <select class="select">
+              <option selected disabled hidden>Select one option</option>
+              <option value="1">Option one</option>
+              <option value="2">Option two</option>
+            </select>
+          </label>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

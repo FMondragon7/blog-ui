@@ -1,0 +1,40 @@
+body {
+  background-color: var(--white);
+}
+
+.contact__header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: .25rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 0;
+}
+
+.about__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+  gap: 2rem;
+}
+
+.about__form_section {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 640px;
+}
