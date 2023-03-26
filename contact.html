@@ -40,7 +40,7 @@
             </li>
             <li>
               <a
-                href="#"
+                href="contact.html"
                 class="button button--primary button--sm text-decoration-none ml-4"
                 >Contact Me</a
               >
@@ -49,7 +49,8 @@
         </nav>
       </div>
     </header>
-
+    <!-- todo: refactor using form label -->
+    <!-- todo: make it responsive to mobile -->
     <section class="container-lg contact">
       <div class="contact__header">
         <h1 class="heading-lg semibold">Contact Me</h1>
@@ -113,6 +114,71 @@
               <option value="2">Option two</option>
             </select>
           </label>
+        </div>
+        <div class="about__form_checkbox">
+          <span class="text-xs light overline">how can i help you?</span>
+          <div class="checkbox-group checkbox-group--vertical">
+            <div class="checkbox">
+              <input
+                id="checkbox_1"
+                name="checkbox_group_1"
+                type="checkbox"
+                class="checkbox__input"
+              />
+              <div>
+                <label for="checkbox_1" class="text-sm light">Job Offer</label>
+                <span class="checkbox__message text-xs light"
+                  >If you are looking to expand your team</span
+                >
+              </div>
+            </div>
+            <div class="checkbox">
+              <input
+                id="checkbox_2"
+                name="checkbox_group_1"
+                type="checkbox"
+                class="checkbox__input"
+              />
+              <div>
+                <label for="checkbox_2" class="text-sm light"
+                  >Project Offer</label
+                >
+                <span class="checkbox__message text-xs light"
+                  >If you are looking to expand your team</span
+                >
+              </div>
+            </div>
+            <div class="checkbox">
+              <input
+                id="checkbox_3"
+                name="checkbox_group_1"
+                type="checkbox"
+                class="checkbox__input"
+              />
+              <div>
+                <label for="checkbox_3" class="text-sm light"
+                  >Collaboration</label
+                >
+                <span class="checkbox__message text-xs light"
+                  >If you are looking to expand your team</span
+                >
+              </div>
+            </div>
+            <div class="checkbox">
+              <input
+                id="checkbox_4"
+                name="checkbox_group_1"
+                type="checkbox"
+                class="checkbox__input"
+              />
+              <div>
+                <label for="checkbox_4" class="text-sm light">Other</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full">
+          <button class="button button--primary w-full">Send</button>
         </div>
       </div>
     </section>

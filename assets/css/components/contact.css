@@ -38,3 +38,11 @@ body {
   gap: 2rem;
   width: 640px;
 }
+
+.about__form_checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  gap: .5rem
+}
