@@ -51,136 +51,145 @@
     </header>
     <!-- todo: refactor using form label -->
     <!-- todo: make it responsive to mobile -->
-    <section class="container-lg contact">
-      <div class="contact__header">
-        <h1 class="heading-lg semibold">Contact Me</h1>
-        <p class="text-lg light">
-          Looking to expand your team? Or do you need a web developer for a
-          specific project? If I can help you in any way don't hesitate to fill
-          this form.
-        </p>
-      </div>
-      <div class="about__form">
-        <div class="about__form_section">
-          <label class="overline text-xs light input-group">
-            first name
-            <input
-              class="input"
-              type="text"
-              name="first-name"
-              placeholder="John"
-            />
-          </label>
-          <label class="overline text-xs light input-group">
-            last name
-            <input
-              class="input"
-              type="text"
-              name="last-name"
-              placeholder="Doe"
-            />
-          </label>
+    <main class="section-md">
+      <section class="container-lg contact">
+        <div class="contact__header">
+          <h1 class="heading-lg semibold">Contact Me</h1>
+          <p class="text-lg light">
+            Looking to expand your team? Or do you need a web developer for a
+            specific project? If I can help you in any way don't hesitate to
+            fill this form.
+          </p>
         </div>
-        <div class="about__form_section">
-          <label class="overline text-xs light input-group">
-            email
-            <input
-              class="input"
-              type="email"
-              name="email"
-              placeholder="john@mail.com"
-            />
-          </label>
-          <label class="overline text-xs light input-group">
-            company
-            <input class="input" type="text" name="company" placeholder="Doe" />
-          </label>
-        </div>
-        <div class="about__form_section">
-          <label class="overline text-xs light input-group">
-            phone
-            <input
-              class="input"
-              type="tel"
-              name="phone"
-              placeholder="987654321"
-            />
-          </label>
-          <label class="overline text-xs light input-group">
-            country
-            <select class="select">
-              <option selected disabled hidden>Select one option</option>
-              <option value="1">Option one</option>
-              <option value="2">Option two</option>
-            </select>
-          </label>
-        </div>
-        <div class="about__form_checkbox">
-          <span class="text-xs light overline">how can i help you?</span>
-          <div class="checkbox-group checkbox-group--vertical">
-            <div class="checkbox">
+        <form action="/contact" method="post" class="about__form">
+          <div class="about__form_section">
+            <label class="overline text-xs light input-group">
+              first name
               <input
-                id="checkbox_1"
-                name="checkbox_group_1"
-                type="checkbox"
-                class="checkbox__input"
+                class="input"
+                type="text"
+                name="first-name"
+                placeholder="John"
               />
-              <div>
-                <label for="checkbox_1" class="text-sm light">Job Offer</label>
-                <span class="checkbox__message text-xs light"
-                  >If you are looking to expand your team</span
-                >
+            </label>
+            <label class="overline text-xs light input-group">
+              last name
+              <input
+                class="input"
+                type="text"
+                name="last-name"
+                placeholder="Doe"
+              />
+            </label>
+          </div>
+          <div class="about__form_section">
+            <label class="overline text-xs light input-group">
+              email
+              <input
+                class="input"
+                type="email"
+                name="email"
+                placeholder="john@mail.com"
+              />
+            </label>
+            <label class="overline text-xs light input-group">
+              company
+              <input
+                class="input"
+                type="text"
+                name="company"
+                placeholder="Doe"
+              />
+            </label>
+          </div>
+          <div class="about__form_section">
+            <label class="overline text-xs light input-group">
+              phone
+              <input
+                class="input"
+                type="tel"
+                name="phone"
+                placeholder="987654321"
+              />
+            </label>
+            <label class="overline text-xs light input-group">
+              country
+              <select class="select">
+                <option selected disabled hidden>Select one option</option>
+                <option value="1">Option one</option>
+                <option value="2">Option two</option>
+              </select>
+            </label>
+          </div>
+          <div class="about__form_checkbox">
+            <span class="text-xs light overline">how can i help you?</span>
+            <div class="checkbox-group checkbox-group--vertical">
+              <div class="checkbox">
+                <input
+                  id="checkbox_1"
+                  name="checkbox_group_1"
+                  type="checkbox"
+                  class="checkbox__input"
+                />
+                <div>
+                  <label for="checkbox_1" class="text-sm light"
+                    >Job Offer</label
+                  >
+                  <span class="checkbox__message text-xs light"
+                    >If you are looking to expand your team</span
+                  >
+                </div>
               </div>
-            </div>
-            <div class="checkbox">
-              <input
-                id="checkbox_2"
-                name="checkbox_group_1"
-                type="checkbox"
-                class="checkbox__input"
-              />
-              <div>
-                <label for="checkbox_2" class="text-sm light"
-                  >Project Offer</label
-                >
-                <span class="checkbox__message text-xs light"
-                  >If you are looking to expand your team</span
-                >
+              <div class="checkbox">
+                <input
+                  id="checkbox_2"
+                  name="checkbox_group_1"
+                  type="checkbox"
+                  class="checkbox__input"
+                />
+                <div>
+                  <label for="checkbox_2" class="text-sm light"
+                    >Project Offer</label
+                  >
+                  <span class="checkbox__message text-xs light"
+                    >If you are looking to expand your team</span
+                  >
+                </div>
               </div>
-            </div>
-            <div class="checkbox">
-              <input
-                id="checkbox_3"
-                name="checkbox_group_1"
-                type="checkbox"
-                class="checkbox__input"
-              />
-              <div>
-                <label for="checkbox_3" class="text-sm light"
-                  >Collaboration</label
-                >
-                <span class="checkbox__message text-xs light"
-                  >If you are looking to expand your team</span
-                >
+              <div class="checkbox">
+                <input
+                  id="checkbox_3"
+                  name="checkbox_group_1"
+                  type="checkbox"
+                  class="checkbox__input"
+                />
+                <div>
+                  <label for="checkbox_3" class="text-sm light"
+                    >Collaboration</label
+                  >
+                  <span class="checkbox__message text-xs light"
+                    >If you are looking to expand your team</span
+                  >
+                </div>
               </div>
-            </div>
-            <div class="checkbox">
-              <input
-                id="checkbox_4"
-                name="checkbox_group_1"
-                type="checkbox"
-                class="checkbox__input"
-              />
-              <div>
-                <label for="checkbox_4" class="text-sm light">Other</label>
+              <div class="checkbox">
+                <input
+                  id="checkbox_4"
+                  name="checkbox_group_1"
+                  type="checkbox"
+                  class="checkbox__input"
+                />
+                <div>
+                  <label for="checkbox_4" class="text-sm light">Other</label>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="w-full">
-          <button class="button button--primary w-full">Send</button>
-        </div>
-      </div>
-    </section>
+          <div class="w-full">
+            <button class="button button--primary w-full">Send</button>
+          </div>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
