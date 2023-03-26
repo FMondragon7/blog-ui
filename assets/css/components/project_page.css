@@ -1,0 +1,26 @@
+.project__content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.project__content-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+  padding: 0 2rem;
+  gap: 2.5rem;
+}
+
+.project__content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.project__content-image img {
+  width: 384px;
+  height: 327px;
+  border-radius: .5rem;
+}
