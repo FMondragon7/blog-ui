@@ -52,8 +52,7 @@
       </div>
     </header>
 
-    <!-- todo: make it responsive to mobile -->
-    <main class="section-md">
+    <main class="py-12">
       <section class="container-lg contact">
         <div class="contact__header">
           <h1 class="heading-lg semibold">Contact Me</h1>
@@ -63,7 +62,11 @@
             fill this form.
           </p>
         </div>
-        <form action="/contact" method="post" class="about__form">
+        <form
+          action="/contact"
+          method="post"
+          class="container-lg contact__form"
+        >
           <div class="about__form_section">
             <label class="overline text-xs light input-group">
               first name
@@ -188,7 +191,13 @@
             </div>
           </div>
           <div class="w-full">
-            <button class="button button--primary w-full">Send</button>
+            <button
+              type="submit"
+              name="submit"
+              class="button button--primary w-full"
+            >
+              Send
+            </button>
           </div>
         </form>
       </section>
