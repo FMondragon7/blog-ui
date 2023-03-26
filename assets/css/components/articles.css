@@ -84,3 +84,7 @@
   font-weight: 300;
   line-height: 24px;
 }
+
+.hidden {
+  display: none;
+}
