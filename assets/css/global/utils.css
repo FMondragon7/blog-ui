@@ -44,6 +44,10 @@
   margin-left: 1rem;
 }
 
+.fill_gray-500 {
+  fill: var(--gray-500);
+}
+
 .color-primary {
   color: var(--primary);
 }
