@@ -33,14 +33,16 @@
   gap: 3rem;
 }
 
-.project__built_header {
+.project__built_header,
+.team__header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
 }
 
-.project__built_features {
+.project__built_features,
+.team__list {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -74,6 +76,19 @@
   flex-direction: column;
   align-items: flex-start;
   gap: .5rem;
+}
+
+.team__list_member {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.team__list_member img {
+  width: 320px;
+  height: 256px;
+  border-radius: .5rem;
 }
 
 @media only screen and (max-width: 430px) {
