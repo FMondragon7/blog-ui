@@ -98,6 +98,31 @@
   border-radius: .5rem;
 }
 
+.team__member_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .5rem;
+}
+
+.team__member_social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.team__member_social-links .icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-lighter);
+  border-radius: 0.375rem;
+  width: 40px;
+  height: 40px;
+  fill: var(--gray-500);
+}
+
 @media only screen and (max-width: 430px) {
   .project__built_features,
   .project__content {
