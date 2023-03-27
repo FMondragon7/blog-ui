@@ -125,7 +125,8 @@
 
 @media only screen and (max-width: 430px) {
   .project__built_features,
-  .project__content {
+  .project__content,
+  .team__list {
     flex-direction: column;
   }
 }
