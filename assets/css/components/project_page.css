@@ -34,6 +34,10 @@
   gap: 3rem;
 }
 
+#solo {
+  align-items: center;
+}
+
 .project__built_header,
 .team__header {
   display: flex;
