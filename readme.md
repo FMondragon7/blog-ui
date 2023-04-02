@@ -1,6 +1,6 @@
 # fernandomondragon.dev
 
-Foobar is a Python library for dealing with word pluralization.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e48533cc-fe05-4733-b013-9b582c4abcfa/deploy-status)](https://app.netlify.com/sites/fernandomondragon/deploys)
 
 ## Contributing
 
