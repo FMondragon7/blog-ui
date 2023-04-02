@@ -21,7 +21,7 @@
 }
 
 .project__content-image img {
-  width: 384px;
+  width: auto;
   height: 327px;
   border-radius: .5rem;
 }
@@ -131,5 +131,11 @@
   .project__content,
   .team__list {
     flex-direction: column;
+  }
+}
+
+  @media only screen and (max-width: 560px) {
+  .project__built_features {
+    flex-wrap: wrap;
   }
 }
